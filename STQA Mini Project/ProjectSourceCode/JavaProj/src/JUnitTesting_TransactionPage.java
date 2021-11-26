@@ -10,23 +10,27 @@ public class JUnitTesting_TransactionPage {
 	Transaction transactionPage = new Transaction("A", 58, "Dental",7 , "Fracture","ICU");
 
 	@Test
-	void TranscationInitialAmtLabelCheck() {
+	void TranscationInitialAmtLabelCheck() throws InterruptedException {
 		assertNotEquals("", transactionPage.totalAmtLabel);
+		Thread.sleep(2000);
 	}
 
 	@Test
-	void TransactionParameterAgeInitialCheck() {
+	void TransactionParameterAgeInitialCheck() throws InterruptedException {
 		assertNotEquals(0, transactionPage.page);
+		Thread.sleep(2000);
 	}
 	
 	@Test
-	void TranscationInitialAmtValueCheck() {
+	void TranscationInitialAmtValueCheck() throws InterruptedException {
 		assertNotEquals(null, transactionPage.baseCostTextField);	
+		Thread.sleep(2000);
 	}
 	
 	@Test
-	void TranscationRecordNameCheck() {
+	void TranscationRecordNameCheck() throws InterruptedException {
 		assertEquals("A", transactionPage.pname);	
+		Thread.sleep(2000);
 	}
 	
 	

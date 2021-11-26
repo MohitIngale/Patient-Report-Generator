@@ -1,0 +1,24 @@
+Patient Name: A
+Patient Age: 58
+Speciality Treatment: Dental
+Treatment Category: Fracture
+Severitry Rating: 7
+Room Category: ICU
+Total Bill Amt: 6150.0
+----------------------------
+Patient Name: A
+Patient Age: 58
+Speciality Treatment: Dental
+Treatment Category: Fracture
+Severitry Rating: 7
+Room Category: ICU
+Total Bill Amt: 6150.0
+----------------------------
+Patient Name: A
+Patient Age: 58
+Speciality Treatment: Dental
+Treatment Category: Fracture
+Severitry Rating: 7
+Room Category: ICU
+Total Bill Amt: 3075.0
+----------------------------

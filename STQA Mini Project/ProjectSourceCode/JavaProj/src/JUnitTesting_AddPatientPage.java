@@ -9,23 +9,27 @@ public class JUnitTesting_AddPatientPage {
 	{}
 	
 	@Test
-	void SpecialityButtonGroupClearCheck() {
+	void SpecialityButtonGroupClearCheck() throws InterruptedException {
 		assertEquals(null, AddPatient.Speciality.getSelection());
+		Thread.sleep(2000);
 	}
 	
 	@Test
-	void PatientNameCheck() {
+	void PatientNameCheck() throws InterruptedException {
 		assertNotEquals(null, addPatientPage.pnameTextField);	
+		Thread.sleep(2000);
 	}
 
 	@Test
-	void PatientAgeNullCheck() {
+	void PatientAgeNullCheck() throws InterruptedException {
 		assertNotEquals(null, addPatientPage.pageTextField);	
+		Thread.sleep(2000);
 	}
 	
 	@Test
-	void PatientAgeValidCheck() {
+	void PatientAgeValidCheck() throws InterruptedException {
 		assertNotEquals(0, addPatientPage.pageTextField);	
+		Thread.sleep(2000);
 	}
 	
 }
